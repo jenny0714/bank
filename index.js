@@ -1,9 +1,12 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const cors = require('cors');
+const app = express();
+const port = 3000;
 
-app.use('/hi',(req, res)=> res.send('Hi!'))
+app.use(cors());
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.use('/hi',(req, res)=> res.send('Hi!'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.get('/', (req, res) => res.send('Hello World!'));
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jenny0714/bank#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2"
   }
 }
