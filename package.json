@@ -4,19 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jenny0714/bank.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jenny0714/bank/issues"
   },
-  "homepage": "https://github.com/jenny0714/bank#readme",
-  "dependencies": {
-    "express": "^4.21.2"
-  }
+  "homepage": "https://github.com/jenny0714/bank#readme"
 }
